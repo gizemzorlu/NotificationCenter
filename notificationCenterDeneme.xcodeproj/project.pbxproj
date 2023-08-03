@@ -8,22 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		118E740A2A78E8CF006AEAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E74092A78E8CF006AEAB5 /* AppDelegate.swift */; };
-		118E740C2A78E8CF006AEAB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E740B2A78E8CF006AEAB5 /* SceneDelegate.swift */; };
 		118E740E2A78E8CF006AEAB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E740D2A78E8CF006AEAB5 /* ViewController.swift */; };
-		118E74112A78E8CF006AEAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118E740F2A78E8CF006AEAB5 /* Main.storyboard */; };
 		118E74132A78E8D0006AEAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118E74122A78E8D0006AEAB5 /* Assets.xcassets */; };
-		118E74162A78E8D0006AEAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118E74142A78E8D0006AEAB5 /* LaunchScreen.storyboard */; };
+		118E741E2A78EB8B006AEAB5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E741D2A78EB8B006AEAB5 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		118E74062A78E8CF006AEAB5 /* notificationCenterDeneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notificationCenterDeneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118E74092A78E8CF006AEAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		118E740B2A78E8CF006AEAB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		118E740D2A78E8CF006AEAB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		118E74102A78E8CF006AEAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		118E74122A78E8D0006AEAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		118E74152A78E8D0006AEAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118E74172A78E8D0006AEAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118E741D2A78EB8B006AEAB5 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				118E74092A78E8CF006AEAB5 /* AppDelegate.swift */,
-				118E740B2A78E8CF006AEAB5 /* SceneDelegate.swift */,
 				118E740D2A78E8CF006AEAB5 /* ViewController.swift */,
-				118E740F2A78E8CF006AEAB5 /* Main.storyboard */,
+				118E741D2A78EB8B006AEAB5 /* ViewController2.swift */,
 				118E74122A78E8D0006AEAB5 /* Assets.xcassets */,
-				118E74142A78E8D0006AEAB5 /* LaunchScreen.storyboard */,
 				118E74172A78E8D0006AEAB5 /* Info.plist */,
 			);
 			path = notificationCenterDeneme;
@@ -125,9 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				118E74162A78E8D0006AEAB5 /* LaunchScreen.storyboard in Resources */,
 				118E74132A78E8D0006AEAB5 /* Assets.xcassets in Resources */,
-				118E74112A78E8CF006AEAB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,30 +132,11 @@
 			files = (
 				118E740E2A78E8CF006AEAB5 /* ViewController.swift in Sources */,
 				118E740A2A78E8CF006AEAB5 /* AppDelegate.swift in Sources */,
-				118E740C2A78E8CF006AEAB5 /* SceneDelegate.swift in Sources */,
+				118E741E2A78EB8B006AEAB5 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		118E740F2A78E8CF006AEAB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				118E74102A78E8CF006AEAB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		118E74142A78E8D0006AEAB5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				118E74152A78E8D0006AEAB5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		118E74182A78E8D0006AEAB5 /* Debug */ = {
@@ -292,7 +265,6 @@
 				INFOPLIST_FILE = notificationCenterDeneme/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +292,6 @@
 				INFOPLIST_FILE = notificationCenterDeneme/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
